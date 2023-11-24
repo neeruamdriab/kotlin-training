@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12c38d0-a674-430b-81a4-0c53b7b201c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/transitiedashboard/src/test/kotlin/eu/azl/transitiedashboard/CalculatorTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transitiedashboard/src/test/kotlin/eu/azl/transitiedashboard/HelloWorldControllerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-training-main/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-training-main/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c12c38d0-a674-430b-81a4-0c53b7b201c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +10,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YcCxJCWFIZOBOXVDIYyQPW499P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,10 +23,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "0fcab7ed",
-    "last_opened_file_path": "C:/Users/M67A201/Documents/training",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/M67A201/Documents/training/transitiedashboard",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -40,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700815725864</updated>
       <workItem from="1700815726863" duration="66000" />
+      <workItem from="1700816423971" duration="39000" />
     </task>
     <servers />
   </component>
