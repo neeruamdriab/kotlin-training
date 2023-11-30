@@ -3,16 +3,13 @@
   <component name="AutoImportedSourceRoots">
     <option name="directories">
       <list>
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/main/java" />
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/main/kotlin" />
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/main/resources" />
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/test/java" />
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/test/kotlin" />
-        <option value="C:\Users\M67A201\Documents\training\kotlin-training-main/src/test/resources" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/main/java" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/main/kotlin" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/main/resources" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/test/java" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/test/kotlin" />
+        <option value="C:\Users\AZL\Documents\Kotlin\kotlin-training\kotlin-training-main/src/test/resources" />
       </list>
     </option>
-  </component>
-  <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="8c15dc8e-cd27-40cc-b7c9-10dcdbe93785" />
   </component>
 </module>

@@ -10,27 +10,28 @@ import org.springframework.web.server.ResponseStatusException
 @RestController
 class HelloWorldController {
     @GetMapping("/")
-    fun helloWorld(): String =
-        "Hello world"
+    fun helloWorld(): String = "Hello World!"
 
-    @GetMapping("/{name}")
-
-    fun helloName(@PathVariable name: String): String =
-        "Hello $name"
+    @GetMapping("/firstName/{firstName}/lastName/{lastName}")
+    fun helloName(
+        @PathVariable firstName: String,
+        @PathVariable lastName: String,
+    ): String = "Hello $lastName $firstName"
 
     @GetMapping("/query")
-    fun hello(@RequestParam name: String): String =
-        "Hello $name"
+    fun hello(
+        @RequestParam name: String,
+    ): String = "Hello $name"
 
-    @GetMapping("/ontploft")
-    fun ontploft(): String =
-        throw OrderNotFound(1)
-
+    @GetMapping("/order/{id}")
+    fun ontploft(): String {
+        throw OrderNotFound(5)
+    }
 }
 
 class OrderNotFound(
-    id: Long
+    id: Int,
 ) : ResponseStatusException(
-    HttpStatus.NOT_FOUND,
-    "Order with id: $id not found"
-)
+        HttpStatus.NOT_FOUND,
+        "Order with id: $id not found",
+    )
